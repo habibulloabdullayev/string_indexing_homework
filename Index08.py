@@ -6,5 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
-        
+    x=s.count('*')
+    if x==0:
+        print('false')
+        return ' '
+    return x
+print(main('4*34'))
+print(main('good'))
