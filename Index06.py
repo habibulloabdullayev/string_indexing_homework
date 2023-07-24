@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    x = s[0] + s[-1]
+    return x
+print(main('good'))
+print(main('uz'))
