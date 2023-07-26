@@ -6,4 +6,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return 
+    x=1234
+    print(x[5])
