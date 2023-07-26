@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    s=int(s)
+    if s!=int(s):
+        print('-1')
+    return s
+print(main(4))
+print(main('k'))
